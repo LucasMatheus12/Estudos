@@ -1,0 +1,10 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estados{
+    color:green;
+}
+.link-estados{
+    text-decoration: none;
+}

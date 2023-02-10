@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estreia-hoje{
+    color: darkred;
+}
+.estreia-amanha{
+    color: darkblue;
+}
+.link-inicio{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
