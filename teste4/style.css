@@ -1,0 +1,37 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+    gap: 1rem;
+} */ 
+
+/* utiliza-se para quebrar os elementos no tamanho definido no parâmetro */
+
+.grid { 
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+    max-width: 960px;
+    margin: 100px auto;
+}
+
+.cover img{
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+/* ajusta a imagem do tamanho do container e no responsivo corta a imagem sem perder a qualidade e sentido do página */
+
+.texto{
+    align-self: center;
+}
+p{
+    max-width: 60ch;
+}
+
+/* Unidade que define a largura do texto*/
