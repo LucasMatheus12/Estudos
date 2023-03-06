@@ -1,0 +1,16 @@
+/* .texto{
+   display: none;
+}
+
+.ativar{
+    display: block;
+} */
+
+
+#circulo{
+    width: 16px;
+    height: 16px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
