@@ -1,0 +1,60 @@
+.superinfo-bg{
+    background: #122AB2;
+}
+
+.superinfo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.superinfo a, 
+.superinfo p{
+    color: white;
+    margin: 0 10px 10px 10px;
+}
+
+.cabecalho-bg{
+    background: #2C70FF;
+} 
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.cabecalho-logo a{
+    font-size: 2.25em;
+    margin: 0 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.cabecalho-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecalho-menu a{
+    display: block;
+    padding: 10px;
+    font-size: 1.25em;
+    color: white;
+}
+
+.cabecalho-menu a:hover{
+    color: #122AB2;
+}
+
+.introducao{
+    font-size: 3em;
+    line-height: 1;
+    padding: 60px 10px;
+}
